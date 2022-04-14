@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge2</title>
+</head>
+<body>
+    <h2>javascript Const</h2>
+    <p>Declaring a constant array does NOT make the elemens unchangeable :</p>
+    <p id="demo1" ></p>
+    <p id="demo2" ></p>
+    <script>
+        // Create an array
+        const fruits = ["Apple", "Bananna", "Orange"];
+        // Display the array
+        document.getElementById("demo1").innerHTML = fruits ;
+
+        //Change an elemrnt:
+
+        fruits[0] = "Apicort";
+
+        //Add an element 
+        fruits.push("Mango");
+
+        //display the array
+        document.getElementById("demo2").innerHTML = fruits ;
+
+    </script>
+</body>
+</html>
